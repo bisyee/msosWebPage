@@ -1,0 +1,501 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: rgba(151,151,151,0.03);    
+
+}
+
+*{
+    box-sizing: border-box;
+
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    border: 1px solid rgba(0,0,0,0.04);
+    background-color: #ffffff;  
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+
+
+}
+
+.logo img{
+    height: 35px;   
+}
+
+nav .menu{
+    display: flex;
+}
+nav .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #585858;
+    letter-spacing: 1px; 
+}
+
+.search{
+    width: 250px;
+    height: 40px;
+    background-color: rgba(245,245,245,0.8);
+    display:flex;
+    justify-contet: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 20px;
+  
+}
+
+.search input{
+    width:100%;
+    height: 30px;
+    border:none;
+    outline: none;
+    background-color: transparent;
+}
+
+.search i{
+    color: #3a3a3a;
+
+}
+
+nav .menu li a:hover{
+    background-color: #242424;
+    color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(53, 53, 53,0.1);
+    transition: all ease 0.2s;
+
+
+}
+
+#main{
+    padding-top: 80px;
+    background-color: #ffffff;
+
+}
+
+.news-box{
+    width: 430px;
+    height: 250px;
+    box-shadow: 5px 15px 30px rgba(0,0,0,0.03);
+    border-radius: 10px;
+    margin: 0px 20px 10px 20px;
+    overflow: hidden;
+}
+
+.news-box img{
+    width: 430px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    
+}
+
+.news{
+    padding-left: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #1a1a1a;
+
+}
+.container {
+    left: 5%;
+    position: relative;
+    max-width: 600px; /* Maximum width */
+
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+
+  .container1 {
+    left: 45.2%;
+    top: 70%;
+    position: relative;
+    max-width: 600px; /* Maximum width */
+
+  }
+  
+  .container1 .content1 {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(194, 68, 68, 0.755); /* Fallback color */
+    background: rgba(194, 68, 68, 0.755); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 120%; /* Full width */
+    padding: 95px; /* Some padding */
+  }
+
+  .finansii  {
+  
+    top: 70%;
+    position: relative;
+    max-width: 600px; /* Maximum width */
+
+  }
+  
+  .finansii .finansiicontent1 {
+    left: 20%;
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+
+    color: #bd1a1a; /* Grey text */
+    width: 120%; /* Full width */
+    padding: 95px; /* Some padding */
+  }
+
+
+.cs-hidden{
+    overflow: visible  !important;
+}
+
+#covid{
+    border-top: 1px solid rgba(53,53,53,0.3);
+
+}
+
+.covid-heading{
+    margin: 30px 30px 0px 30px;
+    font-weight: 500;
+    font-size: 1.3rem
+}
+
+.covid-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    margin: 20px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    background-color: #ffffff;
+
+
+}
+
+
+.covid-box-img{
+    width: 100%;
+    height: 270px;
+}
+
+.covid-box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.covid-box-text strong{
+    color: #3a3a3a;
+    margin: 0px;
+}
+
+.covid-box-text{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.covid-box-text p{
+    color: #979797;
+    margin: 0px;
+
+}
+
+.teams-heading h2{
+    font-weight: 400;
+    margin: 0px;
+    padding-left: 5px 20px;
+    background-color: rgba(0,0,0,0.01);
+    border: 1px solid rgba(0,0,0,0.06);
+    font-size: 1.7rem ;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 100%
+}
+
+.teams-heading{
+    display: flex;
+    margin: 0px 2%;
+}
+
+.teams-box{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    flex-direction: column;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    margin: 20px;
+    border-radius: 5px;
+    overflow:hidden;
+    border-top: 3px solid #292929;
+
+}
+.teams-img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.teams-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.teams-box a{
+    text-align:center;
+    display: block;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #3a3a3a;
+    margin: 20px;
+}
+
+.teams-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.2s;
+
+}
+
+#teams-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns a{
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #3963f0 ;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.btns a:hover{
+    background-color: #284fd1;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(0,0,0,0.01);
+}
+
+footer p{
+    color: #5e5e5e;
+    margin: 10px 0px;
+    font-size: 0.9rem;
+}
+
+
+@media(max-width:1100px){
+    nav{
+        justify-content: space-between;
+        height: 70px;
+        padding: 0px 10px;
+
+    }
+   
+
+    nav .menu{
+        display: none;
+        position: absolute;
+        top:65px;
+        left: 0px;
+        background: #fff;
+        border-bottom: 4px solid #242424;
+        width: 100px;
+        padding: 0px;
+        margin: 0px;
+
+    }
+  
+    .menu li{
+        width: 100%;
+
+    }
+    nav .menu li a{
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        margin: 0px;
+        padding: 25px;
+        border: 1px solid rgba(38,38,38,0.03);
+
+    }
+
+
+
+    nav .menu-icon{
+        cursor: pointer;
+        float: right;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+        display: block;
+
+    }
+
+    nav .menu-icon .nav-icon{
+        background-color: #333333;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background 0.2s ease-out;
+        width: 18px;
+    }
+    nav .menu-icon .nav-icon:before,
+    nav .menu-icon .nav-icon:after{
+        background: #333333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all ease-out 0.2s;
+        width: 100%;
+    }
+
+    nav .menu-icon .nav-icon:before{
+        top:5px;
+    }
+    nav .menu-icon .nav-icon:after{
+        top: -5px;
+
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon{
+        background: transparent;
+
+    }
+
+    nav .menu-btn:checked ~ .menu-icon .nav-icon:before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon:after{
+        transform: rotate(45deg);
+        top: 0;
+
+    }
+  
+
+  
+    nav .meny-btn:checked ~ .menu{
+        display: block;
+    }
+}
+
+@media(max-width: 680px){
+    .news-box{
+        max-width: 300px;
+        height: 180px;
+        margin: 10px;
+
+    }
+
+    .covid-box{
+        width: 190px;
+        margin: 20px 5px;
+
+    }
+    .teams-box{
+        flex-direction: row;
+        width: 90%;
+        border: 1px solid rgba(0,0,0,0.2);
+    }
+    .teams-box a{
+        width: 65%;
+    }
+    footer{
+        justify-content: space-between;
+        padding: 0px 20px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 440px){
+    .teams-box a, .teams-box{
+        width: 100%;
+    }
+    .teams-box{
+        flex-direction: column;
+    }
+    .logo img{
+        height: 30px;
+    }
+    .search{
+        width: 90%;
+        height: 40px;
+    }
+}
+table {
+    width: 90%;
+  }
+  
+
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+th {
+    text-align: left;
+}
