@@ -575,3 +575,138 @@ table {
 th {
   text-align: left;
 }
+
+.container-trosoci-karticki {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 45px;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-bottom: 20px;
+}
+
+.trosoci-box {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  border-top: 3px solid #292929;
+}
+
+@media (max-width: 680px) {
+  .trosoci-box {
+    flex-direction: row;
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  /* .trosoci-box a {
+    width: 65%;
+  } */
+}
+
+/* .trosoci-box a {
+  text-align: center;
+  display: block;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-line-clamp: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #3a3a3a;
+  margin: 20px;
+  display: inline-block;
+} */
+
+/* .teams-box:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.2s;
+} */
+
+@media (max-width: 440px) {
+  .trosoci-box {
+    flex-direction: column;
+  }
+
+  .trosoci-box {
+    flex-direction: row;
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  /* .trosoci-box a {
+    width: 65%;
+  } */
+}
+
+@media (max-width: 440px) {
+  .trosoci-box a,
+  .trosoci-box {
+    width: 100%;
+  }
+
+  .trosoci-box {
+    flex-direction: column;
+  }
+}
+
+/* .* {
+  box-sizing: border-box;
+} */
+/* ///////////////////////////////TROSOCI 2 */
+.trosoci-2 {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Float four columns side by side */
+.column-card {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.row-card {
+  display: flex;
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row-card:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column-card {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  /* align-items: stretch; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #8a4c4c;
+  color: white;
+  height: 200px;
+  /* padding-top: 15px; */
+}
+
+.fa {
+  font-size: 50px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
