@@ -1,71 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head> 
-        <meta charset='utf-8'>
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Македонска студентска организација</title>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/lightslider.css">
-        <script src="js/JQuery3.3.1.js">
-        </script>
-        <script src="js/lightslider.js"></script>
-       
-        <link rel="shortcut icon" href="images/nba_icon.png"/>
-        
-        <script src="https://kit.fontawesome.com/c8e4d183c2.js"  crossorigin="anonymous"></script>
-    </head>        
-    <body>
-        <!--navigation-->
-        <nav>
-            <!---logo-->
-            <a href="#" class="logo">
-                <img src="images/nba_icon.png" alt=" nba icon"/>
-            </a>
-           
-            <input type="checkbox" class="menu-btn" id="menu-btn"/>
-            <label class="menu-icon" for="menu-btn">
-                <span class="nav-icon">
+  <head>
+    <meta charset="utf-8" />
 
-                </span>
-            </label>
-          
-            <ul class="menu">
-                <li><a href="homework.html">Почетна</a></li> 
-                <li><a href="teams.html">Галерија</a></li>
-                <li><a href="draft.html">Тим</a></li>
-                <li><a href="leaderboard.html">Tips&Tricks</a></li>
-                <li><a href="FinansiiIVrabotuvanje.html">Финансии</a></li>
-               
-            </ul>
-        </nav>
-        <section id="main"></section>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Македонска студентска организација</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightslider.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/nba_icon.png" />
 
-        <div class="container">
-            <img src="images/hornets-5k.jpg" style="width:100%;">
-            <div class="content">
-              <h1>Не можете да најдете простор за живеење?</h1>
-              <p>Најбрз и најлесен начин за сместување</p>
-            </div>
-          </div>
-          <div class="container1">
-            <div class="content1">
-                <h1>Не можете да најдете простор за живеење?</h1>
-                <p>Најбрз и најлесен начин за сместување</p>
-            </div>
-          </div>
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--navigation-->
+    <!-- Na bisera -->
+    <nav hidden> 
+      <!---logo-->
+      <a href="#" class="logo">
+        <img src="images/nba_icon.png" alt=" nba icon" />
+      </a>
 
-          <div class="finansii">
-            <div class="finansiicontent1">
-                <h1>Работа</h1>
-                <p>Се набројвит студентски сервис / двоен данок / услови за вработување</p>
-            </div>
-            
-            
-          </div>
-            
-           
-           
-    </body>
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"> </span>
+      </label>
 
+      <ul class="menu">
+        <li><a href="homework.html">Почетна</a></li>
+        <li><a href="teams.html">Галерија</a></li>
+        <li><a href="draft.html">Тим</a></li>
+        <li><a href="leaderboard.html">Tips&Tricks</a></li>
+        <li><a href="FinansiiIVrabotuvanje.html">Финансии</a></li>
+      </ul>
+    </nav>
+
+    <!-- Na Angel -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li><a class="dropdown-item" href="studServis.html">Студентски сервис</a></li>
+                <li><a class="dropdown-item" href="danok.html">Двоен данок</a></li>
+                <li><a class="dropdown-item" href="vrabotuvanje.html">Вработување</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="main"></section>
+
+    <div class="container">
+      <img src="images/hornets-5k.jpg" style="width: 100%" />
+      <div class="content">
+        <h1>Не можете да најдете простор за живеење?</h1>
+        <p>Најбрз и најлесен начин за сместување</p>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="content1">
+        <h1>Не можете да најдете простор за живеење?</h1>
+        <p>Најбрз и најлесен начин за сместување</p>
+      </div>
+    </div>
+
+    <div class="finansii">
+      <div class="finansiicontent1">
+        <h1>Работа</h1>
+        <p>
+          Се набројвит студентски сервис / двоен данок / услови за вработување
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
