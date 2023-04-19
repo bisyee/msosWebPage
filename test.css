@@ -1,0 +1,93 @@
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    position: relative; /* add this to create a relative positioning context for the dropdown */
+  }
+  
+  .nav-link {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute; /* add this to make the dropdown menu absolutely positioned */
+    top: 100%; /* add this to position the dropdown menu below the dropdown toggle */
+    left: 0; /* add this to align the left edge of the dropdown menu with the left edge of the dropdown toggle */
+    min-width: 160px; /* set a minimum width for the dropdown menu */
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  }
+  
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #333;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .dropdown-item:hover {
+    color: #007bff;
+    background-color: #f8f9fa;
+  }
+  
